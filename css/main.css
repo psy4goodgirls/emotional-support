@@ -1853,15 +1853,19 @@ input::-moz-focus-inner {
 .main-social{
   list-style: none;
   display: flex;
-
   font-size: 1.8rem;
   margin: 0;
 }
+
+.main-social-pay {
+  margin-top: 10px;
+}
+
+
 .main-social li {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* display: inline-block; */
   margin-bottom: 20px;
   margin-right: 50px;
   padding-left: 0;
@@ -1870,6 +1874,11 @@ input::-moz-focus-inner {
 .main-social li:hover i{
   color: #fff;
 }
+
+.main-social li.social-dark:hover i{
+  color: rgb(139, 98, 98);
+}
+
 .main-social li:last-child{
   margin-right: 0;
 }
@@ -2314,13 +2323,34 @@ html.no-csstransitions .home-content__main {
   font-size: 15px;
   height: 5rem;
   padding: 0 2rem;
-  background-color: #9d0dc9;
+  background-color: #2b96b1;
   border: none;
   transition: all 0.3s ease 0s;
 }
-.s-register button:hover {
-  background-color: #d982f3;
+.s-register button:hover, .register-btn button:hover {
+  background-color: #56a3b6;
 }
+.s-register ol li {
+  margin-bottom: 10px;
+}
+
+.s-register ol li:last-child {
+  margin-bottom: 0px;
+}
+
+.s-register .row.mb {
+  margin-bottom: 0;
+}
+
+.col-full-dark {
+  background-color: #b6eeea;
+  border-radius: 10px;
+
+}
+.col-full-dark li {
+  list-style-type: none;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about process
