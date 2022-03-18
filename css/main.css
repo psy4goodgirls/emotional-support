@@ -1759,6 +1759,18 @@ input::-moz-focus-inner {
   padding-left: 10rem;
   position: relative;
 }
+
+.home-content h3 {
+  font-family: "metropolis-light", sans-serif;
+  font-size: 3.4rem;
+  line-height: 1.421;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  position: relative;
+}
+
+
 /* .home-content h1 + p::before {
   content: "";
   display: block;
